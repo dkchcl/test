@@ -45,6 +45,7 @@ module "f_pip" {
   public_ip           = "frontend_pip"
   resource_group_name = "dkc-rg-01"
   location            = "central india"
+  
 }
 
 module "b_pip" {
