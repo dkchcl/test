@@ -1,3 +1,5 @@
+# modified by: Dinesh Kumar Chauhan
+# date: 2025-07-10
 module "rg" {
   source              = "../../Modules/resource_group"
   resource_group_name = "dkc-rg-01"
